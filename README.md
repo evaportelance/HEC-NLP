@@ -7,7 +7,7 @@ Welcome to the course repo for MATH 60621A of HEC Montréal. You will find assig
 ### STEP 1: Clone or download this repo
 
 ### STEP 2: Install Anaconda
-To ensure that your environment is compatible with all assignments and exercises, I recommend installing Anaconda as a virtual env and package manager. You can find the installation instructions for [MAC OS](), [WINDOWS](), and [LINUX]() on their website.
+To ensure that your environment is compatible with all assignments and exercises, I recommend installing Anaconda as a virtual env and package manager. You can find the installation instructions for [MAC OS](https://docs.anaconda.com/anaconda/install/mac-os/), [WINDOWS](https://docs.anaconda.com/anaconda/install/windows/), and [LINUX](https://docs.anaconda.com/anaconda/install/linux/) on their website.
 
 ### STEP 3: Create a new virtual environment for this course
 Once anaconda is installed we'll create a new environment that we will use for the rest of the course. For Macs or linux, open your Terminal, for Windows, open PowerShell. Type in the following commands:
@@ -34,7 +34,7 @@ Once pytorch is installed you can install all the other required packages. To do
 pip install -r requirements.txt
 ```
 
-### STEP 5: Start Jupyter nootbook
+### STEP 5: Start Jupyter notebook
 All exercises and asignments will be Jupyter notebooks. Jupyter notebooks allow you to use your browser as your IDE and contain both markdown descriptions as well as runnable code cells. To launch a notebook server
 ```jupyter notebook```
 
