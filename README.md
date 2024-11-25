@@ -20,13 +20,13 @@ Once your environment is created, you'll need to activate it by running:
 ```
 conda activate nlp_py39
 ```
-Now you'll need to install pytorch in this new environment. We'll assume that you need CPU binaries, if you have access to a GPU by all means [install gpu binaries instead](https://pytorch.org/get-started/previous-versions/#v240). Otherwise, for Macs, run the following:
+Now you'll need to install pytorch in this new environment. We'll assume that you need CPU binaries, if you have access to a GPU by all means [install gpu binaries instead](https://pytorch.org/get-started/locally/). Otherwise, for Macs, run the following:
 ```
-conda install pytorch==2.4.0 torchvision==0.19.0 -c pytorch
+conda install pytorch::pytorch torchvision torchaudio -c pytorch
 ```
 For Windows or Linux, run this line instead:
 ```
-conda install pytorch==2.4.0 torchvision==0.19.0 cpuonly -c pytorch
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 
 Once pytorch is installed you can install all the other required packages. To do this navigate to your cloned course repository on the Terminal or PowerShell. Then run:
