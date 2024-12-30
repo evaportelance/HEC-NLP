@@ -54,6 +54,8 @@ conda deactivate
 ## Suggested readings 
 
 Dan Jurafsky and James H. Martin. (2024). *Speech and Language Processing* (3rd Edition draft). URL:  https://web.stanford.edu/~jurafsky/slp3/
+
+For chapter week by week breakdown see syllabus or [readings schedule](./Readings/Lectures/readings.md).
  
 ## Acknowledgement
 
