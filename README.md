@@ -1,6 +1,6 @@
 # HEC-NLP
 
-Welcome to the course repo for MATH 60621A of HEC Montréal. You will find assignments and all weekly exercises in this repo. In preparation for the course please follow the instructions below. All coding will be done in Python. 
+Welcome to the course repo for MATH 60621/60621A of HEC Montréal. You will find course info, assignments and all weekly exercises in this repo. In preparation for the course please follow the instructions below. All coding will be done in Python. 
 
 ## Course setup and requirements
 
@@ -59,4 +59,4 @@ For chapter week by week breakdown see syllabus or [readings schedule](./Reading
  
 ## Acknowledgement
 
- Some of the files in this repo were heavily inspired or taken from [Chris Potts's Stanford NLU course repo](https://github.com/cgpotts/cs224u/tree/main), a course I took as a graduate student myself and thoroughly enjoyed!
+ Some of the exercise files in this repo were heavily inspired or taken from [Chris Potts's Stanford NLU course repo](https://github.com/cgpotts/cs224u/tree/main), a course I took as a graduate student myself and thoroughly enjoyed! Many of the course slides are also based on Dan Jurafsky's. 
