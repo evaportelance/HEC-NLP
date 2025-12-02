@@ -127,7 +127,7 @@ Vous pouvez désactiver votre environnement à tout moment en exécutant
 conda deactivate
 ```
 -->
-##Lectures suggérées 
+## Lectures suggérées 
 
 Dan Jurafsky and James H. Martin. (2025). *Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models, 3rd edition*. Online manuscript released August 24, 2025. URL: https://web.stanford.edu/~jurafsky/slp3/
 
