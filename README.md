@@ -3,68 +3,60 @@
 # MATH 60621A : Natural language processing 
 (MATH 60621 est introduit plus bas.)
 
-Welcome to the course repo for MATH 60621/60621A of HEC Montréal. You will find course info, assignments and all weekly exercises in this repo. In preparation for the course please follow the instructions below. All coding will be done in Python. 
+Welcome to the course repository for MATH 60621/60621A of HEC Montréal. You will find course info, assignments and all weekly exercises in this repo. In preparation for the course please follow the instructions below. All coding will be done in Python. 
 
  ## Course setup and requirements
- 
- Coming soon.
 
-<!-- ### STEP 1: Clone or download this repo
+### STEP 1: Clone or download this repository
 
-### STEP 2: Install Anaconda
-To ensure that your environment is compatible with all assignments and exercises, I recommend installing Anaconda as a virtual env and package manager. You can find the installation instructions for [MAC OS](https://docs.anaconda.com/anaconda/install/mac-os/), [WINDOWS](https://docs.anaconda.com/anaconda/install/windows/), and [LINUX](https://docs.anaconda.com/anaconda/install/linux/) on their website.
+You will need to fetch this repository from GitHub (you can use the Terminal (Mac/Linux) or PowerShell (Win) for this). Before running the following command, determine where on your computer you would like to store this course folder.
 
-If you are already familiar with python libraries and virtual environments and would like to manage them differently that is fine too, just make sure to install all the required libraries and be cognizant of versioning.
+For the purpose of this guide, we'll assume that coursework will reside under: `/Users/$USER/coursework/MATH-60621A/projects/` on Mac and Linux. You're welcome to use any directory though.
 
-### STEP 3: Create a new virtual environment for this course
-Once anaconda is installed we'll create a new environment that we will use for the rest of the course. For Macs or linux, open your Terminal, for Windows, open PowerShell. Type in the following commands:
-```
-conda create -n nlp_py39 python=3.9 anaconda
-```
+For Mac and linux, open your terminal, for Windows, open `PowerShell` and navigate to the course directory created in Step 1:
 
-### STEP 4: Install package requirements 
-Once your environment is created, you'll need to activate it by running:
-```
-conda activate nlp_py39
-```
-Now you'll need to install pytorch in this new environment. We'll assume that you need CPU binaries:
-
-```
-conda install conda-forge::pytorch-cpu
+```terminal
+cd ~
+mkdir ./coursework/MATH-60621A/projects/
+git clone https://github.com/evaportelance/HEC-NLP.git
 ```
 
-If you have access to a GPU you can run this line instead:
-```
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
-```
+### STEP 2: Install `uv`
+To ensure that your environment is compatible with all assignments and exercises, I recommend installing `uv` as a Python package and project manager.
 
-Once pytorch is installed you can install all the other required packages. To do this navigate to your cloned course repository on the Terminal or PowerShell. Then run:
-```
-pip install -r requirements.txt
-```
+I recommend using the "Standalone installer" `uv` install instructions unless you already have a preference for another package manager. You can find the `uv` installation instructions for [Mac/Linux](https://docs.astral.sh/uv/getting-started/installation/#__tabbed_1_1) and [Windows](https://docs.astral.sh/uv/getting-started/installation/#__tabbed_1_2) on their website.
 
-### STEP 5: Start Jupyter notebook
+If you are already familiar with other tools and would like to manage the project differently, that is fine too. Just make sure to install all the required libraries and be cognizant of versioning used by the assignment. These are available in the XXX file of this repository. If you are using `uv` it will automatically create a .venv file with required libraries and python version in your course directory.
+
+
+### STEP 3: Start Jupyter Lab: 
+
+https://docs.astral.sh/uv/guides/integration/jupyter/
 All exercises and asignments will be Jupyter notebooks. Jupyter notebooks allow you to use your browser as your IDE and contain both markdown descriptions as well as runnable code cells. To launch a notebook server
-```jupyter notebook```
+```
+cd ~/coursework/MATH-60621A/projects/
+uv run --with jupyter jupyter lab
+```
 
-You can optionally specify a port to use with the specification `--port 2222`. 
+By default, jupyter lab will start the server at `http://localhost:8888/lab` and open it in your browser. *Alternatively*, if you are *visual studio code* user, you can use the [Jupyter extension](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) to run notebooks directly in the editor without the above steps and needing to open a browser.
 
-This should launch a browser that takes you to a view of the directory you're in. You can then open notebooks for working and create new notebooks.
+You can now open notebooks for working and create new notebooks.
 
 
 ### You are all set!!
 
 You can deactivate your environment whenever you need to by running
+
+```terminal
+deactivate
 ```
-conda deactivate
-```
--->
 
 ## Suggested readings 
 
 Dan Jurafsky and James H. Martin. (2025). *Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models, 3rd edition*. Online manuscript released August 24, 2025. URL: https://web.stanford.edu/~jurafsky/slp3/
 
 For chapter week by week breakdown see syllabus or [readings schedule](./Readings/Lectures/readings.md).
+
 
 
 *****************************************************************
