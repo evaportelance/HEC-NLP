@@ -10,7 +10,7 @@ dependencies = [
     "jupyterlab>=4.5.0",
     "matplotlib>=3.7.0",
     "nltk>=3.9.2",
-    "numpy==2.3.5",
+    "numpy<2.0",
     "pandas>=2.3.3",
     "pyarrow==17.*,<18",
     "pytest>=9.0.2",
@@ -20,4 +20,5 @@ dependencies = [
     "torch==2.2.2",
     "torchvision==0.17.2",
     "transformers>=4.57.3",
+    "gensim>=4",
 ]
