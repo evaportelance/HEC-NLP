@@ -11,13 +11,14 @@ Welcome to the course repository for MATH 60621/60621A of HEC Montréal. You wil
 
 You will need to fetch this repository from GitHub. Before running the following command, determine where on your computer you would like to store this course folder.
 
-For the purpose of this guide, we'll assume that coursework will reside under: `/Users/$USER/coursework/MATH-60621A/projects/` on Mac and Linux. You're welcome to use any directory though.
+For the purpose of this guide, we'll assume that coursework will reside under: `/Users/$USER/coursework/MATH-60621A/` on Mac and Linux. You're welcome to use any directory though.
 
 For Mac and linux, open your terminal, for Windows, open `PowerShell` and navigate to the chosen course directory and clone this repo:
 
 ```terminal
 cd ~
-mkdir ./coursework/MATH-60621A/projects/
+mkdir ./coursework/MATH-60621A/
+cd ./coursework/MATH-60621A/
 git clone https://github.com/evaportelance/HEC-NLP.git
 ```
 
@@ -34,7 +35,7 @@ If you are already familiar with other tools and would like to manage the projec
 https://docs.astral.sh/uv/guides/integration/jupyter/
 All exercises and asignments will be Jupyter notebooks. Jupyter notebooks allow you to use your browser as your IDE and contain both markdown descriptions as well as runnable code cells. To launch a notebook server go to the course directory and start up jupyterlab:
 ```
-cd ~/coursework/MATH-60621A/projects/
+cd ~/coursework/MATH-60621A/HEC-NLP/
 uv run --with jupyter jupyter lab
 ```
 
@@ -66,13 +67,14 @@ Bienvenue dans le repo du cours MATH 60621/60621A de HEC Montréal. Vous trouver
 
 Vous devrez récupérer ce repo depuis GitHub. Avant d'exécuter la commande suivante, déterminez où vous souhaitez sauvegarder ce dossier de cours sur votre ordinateur.
 
-Dans le cadre de ce guide, nous supposerons que les travaux de cours seront gardés sous : `/Users/$USER/coursework/MATH-60621A/projects/` sur Mac et Linux. Vous pouvez toutefois utiliser n'importe quel dossier.
+Dans le cadre de ce guide, nous supposerons que les travaux de cours seront gardés sous : `/Users/$USER/coursework/MATH-60621A/` sur Mac et Linux. Vous pouvez toutefois utiliser n'importe quel dossier.
 
 Pour Mac et Linux, ouvrez votre Terminal, pour Windows, ouvrez `PowerShell` et accédez au dossier du cours choisi puis clonez le repo:
 
 ```terminal
 cd ~
-mkdir ./coursework/MATH-60621A/projects/
+mkdir ./coursework/MATH-60621A/
+cd ./coursework/MATH-60621A/
 git clone https://github.com/evaportelance/HEC-NLP.git
 ```
 
@@ -88,7 +90,7 @@ Si vous connaissez déjà d'autres outils et souhaitez gérer le projet différe
 https://docs.astral.sh/uv/guides/integration/jupyter/
 Tous les exercices et devoirs seront des notebooks Jupyter. Les notebooks Jupyter vous permettent d'utiliser votre navigateur comme IDE et contiennent à la fois des descriptions markdown et des cellules de code exécutables. Pour lancer un serveur de notebooks, navigez au dossier du cours puis lancez jupyterlab:
 ```
-cd ~/coursework/MATH-60621A/projects/
+cd ~/coursework/MATH-60621A/HEC-NLP/
 uv run --with jupyter jupyter lab
 ```
 
